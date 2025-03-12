@@ -11,8 +11,8 @@ def reduce_brightness(image_path, output_path, factor):
         print(f"Image saved as {output_path}")
 
 # Example usage:
-image_path = 'Images/099548361.jpg'
-output_path = 'Darker_Images/099548361.jpg.jpg'
+image_path = '../Images/099548361.jpg'
+output_path = '../Enhanced_Images/Darker_Images/099548361.jpg.jpg'
 brightness_factor = 0.5
 
 reduce_brightness(image_path, output_path, brightness_factor)
