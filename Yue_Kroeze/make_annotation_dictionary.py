@@ -81,8 +81,7 @@ def process_images(mat_file, images_folder, output_file):
 
     print(f"Saved joint data for {len(image_joints_dict)} images to {output_file}")
 
-
-# Example usage
+# Run
 mat_file_path = "mpii_human_pose_v1_u12_1.mat"
 images_folder_path = "single person kopie"
 output_pickle_file = "joints_data_2.pkl"
