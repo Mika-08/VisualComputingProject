@@ -98,7 +98,7 @@ def calculate_mse(predictions, ground_truth):
 
 
 
-# Example usage:
+# Run
 mat_file_path = "mpii_human_pose_v1_u12_1.mat"
 target_image = "000992382.jpg"
 target_path = "test_normal/000992382.jpg"
