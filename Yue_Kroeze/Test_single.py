@@ -12,7 +12,7 @@ def run_model(path):
     # Run tracking
     results = model.track(source=path, show=False, save=False)
 
-    # Define the remapping from YOLO keypoints (0-16) to your custom indices
+    # Define the remapping from YOLO keypoints (0-16) to indices
     keypoint_mapping = {5: 13, 6: 12, 7: 14, 8: 11, 9: 15, 10: 10, 11: 3, 12: 2, 13: 4, 14: 1, 15: 5, 16: 0}
 
     # Extract and format keypoints
